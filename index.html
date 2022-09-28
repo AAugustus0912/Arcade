@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<!-- test comment -->
+<body>
+<h1>Aaliyah's Tic-Tac-Toe</h1>
+
+<section id="first_section" class="first_section">
+    <input type="text" placeholder="player one" class="players"><br>
+    
+  </section>
+  <p></p>
+  <section id="second_section" class="second_section">
+    <input type="text" placeholder="player two" class="players"><br>
+  
+  </section>
+  
+  <section id="button">
+      <button type="button" id="second_button">Start Game</button>
+  </section>
+
+  <p id="whose-turn">
+
+  </p>
+
+
+<div id="board">
+<!--data index allows you to store extra info in your html-->
+    <div data-index="1" class="tile right-border bottom-border"></div>
+    <div data-index="2" class="tile right-border bottom-border"></div>
+    <div data-index="3" class="tile bottom-border"></div>
+    <div data-index="4" class="tile right-border bottom-border"></div>
+    <div data-index="5" class="tile right-border bottom-border"></div>
+    <div data-index="6" class="tile bottom-border"></div>
+    <div data-index="7" class="tile right-border"></div>
+    <div data-index="8" class="tile right-border"></div>
+    <div data-index="9" class="tile"></div>
+    <div id="strike" class="strike"></div>
+</div>
+
+<div id="game-over" class="hidden">
+<h2 id="game-over-mess">X, You're A Winner!</h2>
+<button id="play-again">Play Again</button>
+</div>
+
+
+
+
+</body>
+</html>
